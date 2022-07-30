@@ -1,0 +1,186 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1,h2.h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1171px;
+    margin: 0 auto;
+}
+header{
+    background: rgba(78,190,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+padding-top: 61px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer{
+    color: #fff;
+    width: 565px;
+}
+title{
+    font-size: 34px;
+    margin-bottom: 44px;
+}
+span{
+    font-size: 59px;
+}
+.intro{
+    font-size: 16px;
+    margin-bottom: 42px;
+    width: 405px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    color: black;
+    background-color: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: block;
+    width: 222px;
+    padding: 20px 0px;
+    text-align: center;
+    text-decoration: none;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.future{
+    margin-top: 108px;
+    margin-bottom: 70px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-bottom: 122px;
+}
+.skill-title{
+    font-size: 19px;
+}
+.skill-text{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+.skill{
+    padding-top: 90px;
+}
+.skill1{
+    width: 305px;
+    background: url(../img/icon1.jpg) no-repeat top center;
+}
+.skill2{
+    width: 270px;
+    background: url(../img/icon2.jpg) no-repeat top center;
+}
+.skill3{
+    width: 310px;
+    background: url(../img/icon3.jpg) no-repeat top center;
+}
+.form{
+    background-color: #ecf3f8;
+    padding-bottom: 107px;
+}
+.title-form{
+    padding-top: 103px;
+    padding-bottom: 57px;
+}
+.input{
+    width: 340px;
+    height: 48px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #c6c5c9;
+    font-size: 15px;
+    margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dream{
+    width: 340px;
+    height: 56px;
+    text-align: center;
+    border: none;
+    color: black;
+    background-color: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: #164d7a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 60px 0px;
+    color: #fff;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 920px;
+        margin: 0 auto;
+    }
+    .desktop{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 952px){
+    .container{
+        width: 720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .desktop{
+        width: 300px;
+    }
+    .input{
+        width: 290px;
+        align-content: center;
+    }
+    .dream{
+        width: 290px;
+    }
+    .intro{
+        width: 300px;
+    }
+    .offer{
+        width: 300px;
+    }
+}
